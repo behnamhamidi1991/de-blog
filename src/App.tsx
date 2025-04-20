@@ -1,8 +1,8 @@
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
-import Applayout from "./Components/layout/Applayout";
-import Errorpage from "./Components/Pages/ErrorPage/Errorpage";
-import Homepage from "./Components/Pages/Homepage/Homepage";
-import Blogpage from "./Components/Pages/Blog/Blogpage";
+import Applayout from "./layout/Applayout";
+import Errorpage from "./pages/ErrorPage/Errorpage";
+import Homepage from "./pages/Homepage/Homepage";
+import Blogpage from "./pages/Blog/Blogpage";
 const router = createBrowserRouter([
   {
     element: <Applayout />,
