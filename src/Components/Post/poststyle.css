@@ -1,0 +1,38 @@
+.postcontent {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  margin: 20px;
+}
+.postbox {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+.postbox:hover {
+  transform: translateY(-5px);
+}
+.post-title {
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.post-text {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 10px;
+}
+.post-details {
+  font-size: 0.9rem;
+  color: #888;
+}
+
+.post-writer {
+  font-weight: bold;
+}
+.post-view {
+  color: #555;
+}
